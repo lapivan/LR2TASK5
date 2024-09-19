@@ -5,9 +5,9 @@ int main() {
     std::cin >> x;
     std::cout << "Enter y: ";
     std::cin >> y;
-    if (x>y) 
-    std::cout << "x > y" << std::endl;
+    if (x>=y) 
+        std::cout << "x >= y" << std::endl;
     else 
-    std::cout << "x < y" << std::endl; 
+        std::cout << "x < y" << std::endl; 
     return 0;
 }
